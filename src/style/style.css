@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255); 
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.top{
+    display:block;
+    border-bottom-right-radius: 40px;
+    background-color: aquamarine;
+    padding: 15px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.35);
+}
+
+.sec_user{
+    display:inline-flex;
+   
+}
+
+.btn_icon{
+    border-radius: 100%;
+    padding: 10px;
+
+}
+
+.msg_user{
+    padding-left: 15px;
+}
+  
+

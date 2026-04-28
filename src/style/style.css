@@ -36,4 +36,36 @@ body{
     padding-left: 15px;
 }
   
+.acoes {
+  display: flex;
+  gap: 42px;
+  padding: 15px;
+  padding-top: 30px;
 
+}
+
+.btn_acoes {
+  width: 70px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 6px;
+  background-color: cyan;
+  border-radius: 8px;
+}
+.img_acoes  {
+
+  background: #b2dbe5;
+  padding: 3px;
+  position: relative;
+  top: 11px;
+}
+
+.txt_acoes {
+  font-size: 12px;
+  color: #0ea5b7;
+  position:relative;
+  display:flex;
+  bottom: 62px;
+}

@@ -1,5 +1,6 @@
 body{
   margin: 0;   
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .top{
@@ -13,17 +14,40 @@ body{
 
 .sec_user{
   display:inline-flex;
-   
 }
 
 .btn_icon{
   border-radius: 100%;
-  padding: 10px;
+  padding: 13px;
+  border: 0;
 
 }
 
 .msg_user{
   padding-left: 15px;
+}
+
+.sec_saldo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 250px;
+    height: 68px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.sec_saldo p{
+  color: white;
+}
+
+.sec_saldo strong{
+  color: white;
 }
 
 .btn_cards{
@@ -49,22 +73,25 @@ body{
   
 .acoes {
   display: flex;
-  gap: 42px;
+  gap: 15px;
   padding: 15px;
   padding-top: 30px;
 
 }
 
 .btn_acoes {
-  width: 70px;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  gap: 6px;
-  background-color: cyan;
-  border-radius: 8px;
+    width: 100px;
+    height: 70px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column-reverse;
+    place-items: center;
+    background-color: cyan;
+    border-radius: 8px;
+    place-content: center;
+    grid-auto-flow: dense;
 }
+
 .img_acoes  {
 
   background: #b2dbe5;
@@ -79,4 +106,59 @@ body{
   position:relative;
   display:flex;
   bottom: 62px;
+}
+
+.nav_bar{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+position:relative;
+bottom: -75px;
+border-radius: 25px;
+background-color: #00D3FF;
+height: 75px;
+margin-left: 15px;
+margin-right: 15px;
+}
+
+.nav_bar a {
+  flex: 1;
+  text-align: center;
+  padding: 12px;
+  
+  position: relative;
+}
+
+.nav_bar a::after {
+  content: "";
+  
+  position: absolute;
+
+  right: 0;
+  top: 50%;
+
+  width: 1px;
+  height: 70px;
+
+  background: whitesmoke;
+
+  transform: translateY(-50%);
+}
+
+.nav_bar a:last-child {
+  border-right: none;
+}
+
+.cotacao-card {
+  background: #d9d9d9;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }

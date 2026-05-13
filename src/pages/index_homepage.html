@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="/src/style/style_homepage.css">
-</head>
+    <script src="/src/script/script_homepage.js"></script>
+
 <body>
     <main class="container">
     
         <Header class="top"> 
             <section class="sec_user">
-                <button type="button" class="btn_icon">icon</button> 
-                <p class="msg_user">Bem vindo, username</p>
+                <a href="" class="btn_icon">
+                <img src="/src/assets/icons8-conta-de-teste-50.png" alt="">
+                </a> 
+                <p class="msg_user">Bem vindo, usuário</p>
             </section>
-
-                <br>
 
             <section class="sec_saldo">
                 <p>saldo em conta</p>
@@ -23,41 +25,36 @@
                 <button>visualizar</button>
             </section>
 
-                <br>
-
             <button type="button" class="btn_cards">
                 <img class="img_cards" src="/src/assets/icons8-credit-card-25.png" alt="">
                 <span class="txt_cards">Meus Cartões</span>   
             </button>
         </Header>
 
-                <br>    
-
         <Section class="acoes">
            
             <a href="" class="btn_acoes">
                 <span class="txt_acoes">Boleto</span>
-                <img class="img_acoes" src="/src/assets/icons8-boleto-35.png" alt="">
+                <img class="img_acoes" src="/src/assets/icons8-código-de-barras-50.png" alt="">
             </a>
                
             <a href="" class="btn_acoes">
                 <span class="txt_acoes">Pix</span>
-                <img class="img_acoes" src="/src/assets/icons8-boleto-35.png" alt="">
+                <img class="img_acoes" src="/src/assets/icons8-foto-50.png" alt="">
             </a>
 
             <a href="" class="btn_acoes">
                 <span class="txt_acoes">Extrato</span>
-                <img class="img_acoes" src="/src/assets/icons8-boleto-35.png" alt="">
+                <img class="img_acoes" src="/src/assets/icons8-declaração-50 (1).png" alt="">
             </a>
             
             <a href="" class="btn_acoes">
                 <span class="txt_acoes">Cartões</span>
-                <img class="img_acoes" src="/src/assets/icons8-boleto-35.png" alt="">
+                <img class="img_acoes" src="/src/assets/icons8-frente-do-cartão-de-crédito-50.png" alt="">
             </a>
         </Section>
 
                 <section class="cotacao-card">
-
   <h2>Cotação do dólar</h2>
 
   <strong class="valor-dolar">
@@ -69,7 +66,6 @@
   </p>
 
   <canvas id="graficoDolar"></canvas>
-
 </section>
 
         <nav class="nav_bar">

@@ -38,28 +38,32 @@ body{
 .sec_saldo{
     display: flex;
     background-color: rgba(0, 0, 0, 0.65);
-    width: 250px;
-    height: 68px;
+    width: 200px;
+    height: 65px;
     border-radius: 10px;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 0px;
     padding-left: 10px;
-    padding-bottom: 5px;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .sec_saldo p{
   color: white;
+  margin: 5px;
+  margin-left: 0px;
 }
 
 .sec_saldo strong{
   color: white;
+  margin: 5px;
+  margin-left: 0px;
 }
 
-.sec_saldo button{
-  color: black;
+.sec_saldo img{
+  margin: 5px;
+  margin-bottom: 0px;
+  margin-top: 2px;
 }
 
 .btn_cards{
@@ -127,7 +131,7 @@ body{
   border-radius: 15px;
   padding: 5px;
   margin: 25px;
-  width: 400px;
+  width: 86%;
   height: 380px;
   display: flex;
   gap: 12px;

@@ -7,118 +7,51 @@
     <title>Home page</title>
     <link rel="stylesheet" href="/src/style/style_homepage.css">
     
-
 <body>
     <main class="container">
-    
         <Header class="top"> 
             <section class="sec_user">
                 <a href="" class="btn_icon">
-                <img src="/src/assets/icons8-conta-de-teste-50 (1).png" alt="">
+                <img src="/src/assets/icone_usuário.png" alt="">
                 </a> 
                 <p class="msg_user">Bem vindo, usuário</p>
             </section>
 
             <section class="sec_saldo">
                 <p>saldo em conta</p>
-                <strong> R$ --,-- </strong>
-                <img src="/src/assets/icons8-olho-32.png" alt="">
+                <strong id="saldo"> R$ 1.000,00 </strong>
+                <img id="mostrarSaldo" src="/src/assets/icone_olho_aberto.png" alt="">
             </section>
-
-            <!--<button type="button" class="btn_cards">
-                <img class="img_cards" src="/src/assets/icons8-credit-card-25.png" alt="">
-                <span class="txt_cards">Meus Cartões</span>   
-            </button>-->
         </Header>
 
         <Section class="acoes">
-           
             <a href="" class="btn_acoes">
                 <span class="txt_acoes">Boleto</span>
-                <img class="img_acoes" src="/src/assets/icons8-barcode-56.png" alt="">
+                <img class="img_acoes" src="/src/assets/icon_código_de_barra.png" alt="">
             </a>
-               
+ 
             <a href="" class="btn_acoes">
                 <span class="txt_acoes">Pix</span>
-                <img class="img_acoes" src="/src/assets/icons8-pix-56.png" alt="">
+                <img class="img_acoes" src="/src/assets/icone_pix.png" alt="">
             </a>
 
             <a href="" class="btn_acoes">
                 <span class="txt_acoes">Extrato</span>
-                <img class="img_acoes" src="/src/assets/icons8-spreadsheet-56.png" alt="">
+                <img class="img_acoes" src="/src/assets/icone_extrato.png" alt="">
             </a>
             
             <a href="" class="btn_acoes">
                 <span class="txt_acoes">Cartões</span>
-                <img class="img_acoes" src="/src/assets/icons8-credit-card-56.png" alt="">
+                <img class="img_acoes" src="/src/assets/icone_cartão_de_crédito.png" alt="">
             </a>
 
              <a href="" class="btn_acoes">
                 <span class="txt_acoes">Cotação</span>
-                <img class="img_acoes" src="/src/assets/icons8-currency-exchange-56.png" alt="">
+                <img class="img_acoes" src="/src/assets/icone_cotação.png" alt="">
             </a>
         </Section>
-<!--
-
-<section class="cotacao-card">
-
-    <div class="moeda">
-            <h3>Dólar</h3>
-            <span>USD/BRL</span>
-
-            <strong id="usdValor">Carregando...</strong>
-
-            <p class="variacao" id="usdVariacao">
-                ↑
-            </p>
-        
-    </div>
-
-    <div class="linha"></div>
-
-
-
-    <div class="moeda">
-        <div class="info-moeda">
-            <h3>Euro</h3>
-            <span>EUR/BRL</span>
-        </div>
-
-        <div class="valor-area">
-            <strong id="eurValor">Carregando...</strong>
-
-            <div class="variacao" id="eurVariacao">
-                ↑
-            </div>
-        </div>
-    </div>
-
-    <div class="linha"></div>
-
-    <div class="moeda">
-        <div class="info-moeda">
-            <h3>Real</h3>
-            <span>BRL/USD</span>
-        </div>
-
-        <div class="valor-area">
-            <strong id="brlValor">Carregando...</strong>
-
-            <div class="variacao" id="brlVariacao">
-                ↑
-            </div>
-        </div>
-    </div>
-
-</section>
-
-        <nav class="nav_bar">
-            <a href="">Início</a> <a href="">Perfil</a>
-        </nav>-->
     </main>
 
     <script src="/src/script/script_homepage.js"></script>
 </body>
-
-
 </html>

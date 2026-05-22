@@ -1,3 +1,6 @@
+
+
+
 const token = localStorage.getItem("token");
 const usuario = JSON.parse(localStorage.getItem("usuario"));
 const usuarioId = usuario.id;
@@ -48,7 +51,7 @@ mostrarSaldo.addEventListener("click", () =>
             saldo.innerText = "R$ ••••••";
             mostrarSaldo.src = "/src/assets/icone_olho_fechado.png";
             saldoVisivel = false;
-        } 
+        }
 
         else 
         {

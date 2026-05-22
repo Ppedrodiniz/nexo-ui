@@ -37,7 +37,7 @@ fetch(`http://localhost:3000/contas/${usuarioId}`,
 const saldo = document.getElementById("saldo");
 const mostrarSaldo = document.getElementById("mostrarSaldo");
 
-let saldoReal = "";
+let saldoReal = "0.00";
 let saldoVisivel = true;
 
 mostrarSaldo.addEventListener("click", () => 
